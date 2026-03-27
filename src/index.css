@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  font-size: 14px;
+  @apply text-taupe-950 bg-orange-50
+}
+
+.button{
+  @apply bg-orange-500 rounded-2xl text-orange-50 
+          min-w-12 min-h-12 flex items-center justify-center gap-2
+          text-2xl py-2 px-8 cursor-pointer; 
+}
+
+.text-input {
+  @apply h-12 border-2 rounded-xl p-2 border-taupe-300 focus:outline-orange-500 active:outline-orange-500
+}
+
+h1 {
+  @apply text-3xl font-semibold;
+}
+
+h3 {
+  @apply text-2xl font-semibold;
+}
+
+.form-item {
+  @apply flex flex-col gap-2;
+}

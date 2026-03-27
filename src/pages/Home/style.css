@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.home-header {
+    @apply flex justify-center items-center gap-2 p-4;
+}
+
+.home-content {
+    @apply p-4;
+}
+
+.home-header .text-input {
+    @apply w-full
+}
+
+.home-header .button {
+    @apply w-12 px-0
+}

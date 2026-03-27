@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.cartItem-wrapper {
+    @apply flex flex-row items-center py-4;
+}
+
+.cartItem-content {
+    @apply flex flex-col w-full px-4;
+}
+
+.cartItem-wrapper .icon{
+    @apply p-2 h-10 w-10 rounded cursor-pointer hover:text-red-500 hover:bg-red-200;
+}

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.checkout-header {
+    @apply gap-2 p-4;
+}
+
+.checkout-header-link {
+    @apply flex justify-start items-center gap-2 text-xl;
+}
+
+.checkout-content {
+    @apply space-y-8 py-8 px-4;
+}
+
+.checkout-form {
+    @apply space-y-8 py-8;
+}

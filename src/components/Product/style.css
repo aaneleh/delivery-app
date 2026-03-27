@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.product-wrapper {
+    @apply flex flex-row items-center py-4;
+}
+
+.product-content {
+    @apply flex flex-col w-full px-4;
+}
+
+.product-wrapper .icon {
+    @apply w-16
+}
