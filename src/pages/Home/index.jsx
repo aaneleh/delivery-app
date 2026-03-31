@@ -9,9 +9,9 @@ function Home() {
         <main className="home-wrapper">
             <header className="home-header">
                 <input type="text" id="pesquisar" placeholder="Pesquisar" className='text-input'/>
-                <Link to={'/checkout'} data-testid="button-to-checkout">
+                <Link to={'/delivery-app/checkout'} data-testid='shopping-cart'>
                     <div className='button'>
-                        <FaShoppingCart className='icon'/>
+                        <FaShoppingCart className='icon' alt="shopping-cart"/>
                     </div>
                 </Link>
             </header>

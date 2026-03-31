@@ -2,17 +2,16 @@
 import { test, expect } from '@playwright/test';
 
 test('Navegação home - checkout', async ({ page }) => {
-  await page.goto('');
+  await page.goto('delivery-app/');
 
-  // Expect a title "to contain" a substring.
-  await expect(page.getByText('Produtos')).toBeDefined();
+  await page.getByText('Produtos');
 
-  await page.getByTestId('button-to-checkout').click();
+  await page.getByAltText('shopping-cart').click();
 
-  await expect(page.getByText('Checkout')).toBeDefined();
+  await page.getByText('Checkout');
 
-  await page.getByText('Voltar').click();
+  await page.getByAltText('arrow-back').click();
 
-  await expect(page.getByText('Produtos')).toBeDefined();
+  await page.getByText('Produtos');
 
 });
