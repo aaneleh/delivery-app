@@ -26,6 +26,7 @@ function Home() {
                 <Product props={{ id: 7, name:'Pizza de chocolate', description:'Pizza de chocolate', price:49.99 }}/>
                 <Product props={{ id: 8, name:'Pizza de chocolate com morango', description:'Pizza chocolate com morango', price:59.99 }}/>
                 <Product props={{ id: 9, name:'Pizza de paçoquinha', description:'Pizza paçoquinha', price:59.99 }}/>
+                <Product props={{ id: 10, name:'Pizza mms', description:'Pizza mms', price:59.99 }}/>
             </section>
         </main>
     )
