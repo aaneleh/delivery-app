@@ -12,8 +12,8 @@ function Checkout() {
     return (
         <main className="checkout-wrapper">
             <header className='checkout-header'>
-                <Link to='/' className='checkout-header-link'>
-                    <FaArrowLeft />
+                <Link to='/delivery-app/' className='checkout-header-link' data-testId="button-to-home">
+                    <FaArrowLeft alt="arrow-back"/>
                     <p>Voltar</p>
                 </Link>
             </header>
