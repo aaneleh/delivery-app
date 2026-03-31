@@ -1,5 +1,5 @@
 // @ts-check
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 
 test('Navegação home - checkout', async ({ page }) => {
   await page.goto('delivery-app/');
