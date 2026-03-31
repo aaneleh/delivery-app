@@ -17,15 +17,15 @@ function Home() {
             </header>
             <section className="home-content">
                 <h1> Produtos </h1>
-                <Product props={{ id: 1, name:'Pizza de calabresa', description:'Pizza', price:49.99 }}/>
-                <Product props={{ id: 2, name:'Pizza margherita', description:'Pizza', price:49.99 }}/>
-                <Product props={{ id: 3, name:'Pizza 4 queijos', description:'Pizza', price:49.99 }}/>
-                <Product props={{ id: 4, name:'Pizza de frango', description:'Pizza', price:49.99 }}/>
-                <Product props={{ id: 5, name:'Pizza de filé', description:'Pizza', price:59.99 }}/>
-                <Product props={{ id: 6, name:'Pizza de camarão', description:'Pizza', price:59.99 }}/>
-                <Product props={{ id: 7, name:'Pizza de chocolate', description:'Pizza', price:49.99 }}/>
-                <Product props={{ id: 8, name:'Pizza de chocolate com morango', description:'Pizza', price:59.99 }}/>
-                <Product props={{ id: 9, name:'Pizza de paçoquinha', description:'Pizza', price:59.99 }}/>
+                <Product props={{ id: 1, name:'Pizza de calabresa', description:'Pizza de calabresa', price:49.99 }}/>
+                <Product props={{ id: 2, name:'Pizza margherita', description:'Pizza margherita', price:49.99 }}/>
+                <Product props={{ id: 3, name:'Pizza 4 queijos', description:'Pizza 4 queijos', price:49.99 }}/>
+                <Product props={{ id: 4, name:'Pizza de frango', description:'Pizza de frango', price:49.99 }}/>
+                <Product props={{ id: 5, name:'Pizza de filé', description:'Pizza de filé', price:59.99 }}/>
+                <Product props={{ id: 6, name:'Pizza de camarão', description:'Pizza de camarão', price:59.99 }}/>
+                <Product props={{ id: 7, name:'Pizza de chocolate', description:'Pizza de chocolate', price:49.99 }}/>
+                <Product props={{ id: 8, name:'Pizza de chocolate com morango', description:'Pizza chocolate com morango', price:59.99 }}/>
+                <Product props={{ id: 9, name:'Pizza de paçoquinha', description:'Pizza paçoquinha', price:59.99 }}/>
             </section>
         </main>
     )
